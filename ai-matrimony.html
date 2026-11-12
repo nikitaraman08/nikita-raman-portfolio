@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Matrimony App | Nikita Raman</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f1e9;--paper:#fcfaf6;--brown:#38271f;--muted:#81766d;--accent:#a66f4d;--line:#ded6ca}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--brown);font-family:'DM Sans',sans-serif;line-height:1.7}
+a{color:inherit;text-decoration:none}
+.container{width:min(1050px,88%);margin:auto}
+nav{padding:24px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.logo{font-family:'Playfair Display',serif;font-size:22px}
+.back{font-size:13px;color:var(--muted)}
+.hero{padding:95px 0 65px}
+.eyebrow,.label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1,h2,h3{font-family:'Playfair Display',serif;font-weight:500;line-height:1.2}
+h1{font-size:clamp(44px,7vw,78px);max-width:850px;margin:20px 0}
+h1 em{color:var(--accent)}
+.intro{font-size:17px;color:var(--muted);max-width:680px}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:30px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:45px}
+.meta small{display:block;color:var(--muted);font-size:11px;margin-bottom:5px}
+.meta strong{font-size:13px;font-weight:600}
+.hero-visual{margin-top:55px;background:#e5d8ce;min-height:390px;display:flex;align-items:center;justify-content:center;padding:35px;gap:18px;flex-wrap:wrap}
+.phone{width:170px;min-height:300px;background:#fffaf5;border:7px solid #392d28;border-radius:25px;padding:16px;box-shadow:0 15px 35px #38271f20}
+.phone small{font-size:9px;color:var(--accent)}
+.phone h3{font-size:19px;margin:12px 0}
+.phone p{font-size:10px;color:var(--muted)}
+.avatar{width:65px;height:65px;border-radius:50%;background:#dfc9b8;margin:15px auto}
+.fake-input{background:#f0eae2;padding:10px;margin-top:10px;font-size:9px;color:#81766d}
+.check{font-size:10px;padding:9px 0;border-bottom:1px solid #eee4da}
+section{padding:75px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(34px,5vw,49px);margin:13px 0 25px}
+h3{font-size:25px;margin-bottom:10px}
+p.body{color:var(--muted);max-width:760px;font-size:15px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:30px}
+.info-card{background:var(--paper);padding:28px}
+.info-card p{color:var(--muted);font-size:14px}
+.list{margin-top:20px;display:grid;gap:13px}
+.list div{padding:15px 18px;background:var(--paper);font-size:14px}
+.highlight{background:var(--brown);color:white;padding:40px;margin-top:35px}
+.highlight p{color:#dfd3c9;font-size:17px;max-width:700px}
+.highlight strong{color:#e0ad87}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:30px}
+.step{background:var(--paper);padding:24px}
+.step span{font-size:11px;color:var(--accent)}
+.step h3{font-size:21px;margin:12px 0}
+.step p{font-size:13px;color:var(--muted)}
+.features{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:30px}
+.feature{background:var(--paper);padding:26px}
+.feature span{font-size:11px;color:var(--accent)}
+.feature h3{margin-top:10px}
+.feature p{font-size:14px;color:var(--muted)}
+.flow{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:30px}
+.flow div{background:var(--paper);padding:16px 19px;font-size:12px;text-align:center}
+.flow b{color:var(--accent)}
+.reflection{background:#e5d9cc;padding:35px;margin-top:30px}
+.reflection p{color:#67574d;font-size:14px}
+footer{padding:30px 0;display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+@media(max-width:700px){.meta{grid-template-columns:1fr 1fr}.split,.steps,.features{grid-template-columns:1fr}.hero-visual{padding:18px}.phone{width:145px;min-height:270px}.flow{gap:6px}footer{flex-direction:column;gap:10px}}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+<a class="logo" href="index.html">Nikita Raman.</a>
+<a class="back" href="index.html">← Back to portfolio</a>
+</nav>
+
+<header class="hero">
+<p class="eyebrow">Product Design · AI · Trust & Safety</p>
+<h1>Making meaningful connections through <em>trust-first design.</em></h1>
+<p class="intro">Designing an AI-enabled matrimony experience that brings together identity verification, thoughtful onboarding and more relevant partner discovery.</p>
+<div class="meta">
+<div><small>Project</small><strong>AI Matrimony App</strong></div>
+<div><small>My role</small><strong>Product Design</strong></div>
+<div><small>Focus</small><strong>UX / UI / AI</strong></div>
+<div><small>Platform</small><strong>Mobile Application</strong></div>
+</div>
+
+<div class="hero-visual">
+<div class="phone">
+<small>WELCOME</small>
+<div class="avatar"></div>
+<h3>Find a connection that feels right.</h3>
+<p>A more thoughtful way to discover meaningful relationships.</p>
+<div class="fake-input">Create your profile →</div>
+</div>
+<div class="phone">
+<small>BUILDING TRUST</small>
+<h3>Verify your identity</h3>
+<p>Choose a verification method to help build confidence.</p>
+<div class="check">✓ Contact verification</div>
+<div class="check">✓ Government ID</div>
+<div class="check">✓ Face verification</div>
+</div>
+<div class="phone">
+<small>DISCOVER</small>
+<h3>Profiles worth exploring</h3>
+<p>Explore suggestions based on your preferences.</p>
+<div class="avatar"></div>
+<div class="fake-input">View profile →</div>
+</div>
+</div>
+</header>
+
+<section>
+<p class="label">01 · Project overview</p>
+<h2>Relationships start with trust.</h2>
+<p class="body">Online matrimony platforms help people discover potential partners, but creating a profile and interacting with strangers can involve uncertainty. This concept explores how verification, useful context and AI-assisted discovery could make the experience more reassuring and relevant.</p>
+<div class="split">
+<div class="info-card">
+<h3>The challenge</h3>
+<p>How might we help people feel more confident about the authenticity of profiles while making partner discovery easier?</p>
+</div>
+<div class="info-card">
+<h3>The opportunity</h3>
+<p>Bring identity assurance and thoughtful personalisation into the core experience, without making onboarding feel intimidating.</p>
+</div>
+</div>
+</section>
+
+<section>
+<p class="label">02 · Problem framing</p>
+<h2>Discovery is only useful when users feel confident.</h2>
+<div class="list">
+<div>01 — Users may be uncertain about profile authenticity.</div>
+<div>02 — Lengthy onboarding can create friction before users see value.</div>
+<div>03 — Too many profiles can make discovery feel overwhelming.</div>
+<div>04 — Users need context to understand why a profile may be relevant.</div>
+</div>
+<div class="highlight">
+<p><strong>Design hypothesis</strong><br><br>If verification is clear, onboarding is purposeful and recommendations are explainable, users may feel more confident exploring relevant connections.</p>
+</div>
+</section>
+
+<section>
+<p class="label">03 · Trust and verification</p>
+<h2>Three layers of identity verification.</h2>
+<p class="body">The onboarding concept offers three verification methods. Each one serves a distinct purpose and gives users a clear understanding of what they are being asked to verify.</p>
+<div class="steps">
+<div class="step"><span>01 · CONTACT</span><h3>Contact verification</h3><p>Confirm access to a contact method through a one-time verification code.</p></div>
+<div class="step"><span>02 · GOVERNMENT ID</span><h3>Identity document</h3><p>Submit an eligible government identity document for verification.</p></div>
+<div class="step"><span>03 · FACE</span><h3>Face verification</h3><p>Complete a guided face check to support confidence that the profile represents a real person.</p></div>
+</div>
+<div class="reflection">
+<h3>Design consideration</h3>
+<p>Verification should communicate what is collected, why it is needed, how it is protected and what happens if a user cannot complete a step. A verification badge should not be presented as a guarantee of someone's intentions or character.</p>
+</div>
+</section>
+
+<section>
+<p class="label">04 · Onboarding experience</p>
+<h2>Make every step feel purposeful.</h2>
+<p class="body">The onboarding journey should introduce value progressively, explain sensitive requests and let users understand their progress.</p>
+<div class="flow">
+<div><b>01</b><br>Welcome</div><span>→</span>
+<div><b>02</b><br>Basic details</div><span>→</span>
+<div><b>03</b><br>Preferences</div><span>→</span>
+<div><b>04</b><br>Verification</div><span>→</span>
+<div><b>05</b><br>Discover</div>
+</div>
+<div class="split">
+<div class="info-card">
+<h3>Reduce uncertainty</h3>
+<p>Use clear instructions, progress indicators and short explanations before asking for personal information.</p>
+</div>
+<div class="info-card">
+<h3>Build confidence</h3>
+<p>Give users visibility into their verification status and provide helpful recovery paths when a step fails.</p>
+</div>
+</div>
+</section>
+
+<section>
+<p class="label">05 · AI-assisted discovery</p>
+<h2>Move from endless browsing to relevant discovery.</h2>
+<p class="body">AI can help organise discovery around user preferences and profile context. The experience should make recommendations understandable and allow users to adjust their preferences.</p>
+<div class="features">
+<div class="feature"><span>FEATURE 01</span><h3>Personalised suggestions</h3><p>Prioritise profiles using preferences and signals users have chosen to share.</p></div>
+<div class="feature"><span>FEATURE 02</span><h3>Contextual insights</h3><p>Explain shared interests or preference alignment without making unsupported claims.</p></div>
+<div class="feature"><span>FEATURE 03</span><h3>Smarter filters</h3><p>Help users refine discovery with clear controls and transparent preferences.</p></div>
+<div class="feature"><span>FEATURE 04</span><h3>User-controlled AI</h3><p>Let users edit preferences, understand recommendations and control personalisation.</p></div>
+</div>
+</section>
+
+<section>
+<p class="label">06 · Experience principles</p>
+<h2>Designing for confidence, dignity and choice.</h2>
+<div class="list">
+<div><strong>Privacy by design</strong> — Explain data collection and give users control over visibility.</div>
+<div><strong>Inclusive onboarding</strong> — Make verification guidance clear and accessible.</div>
+<div><strong>Transparent recommendations</strong> — Explain why a profile is suggested.</div>
+<div><strong>Respectful discovery</strong> — Avoid reducing people to scores or opaque compatibility labels.</div>
+<div><strong>Human choice</strong> — Keep users in control of connections and decisions.</div>
+</div>
+</section>
+
+<section>
+<p class="label">07 · Reflection and validation</p>
+<h2>Trust is an experience, not just a badge.</h2>
+<p class="body">The concept brings verification, discovery and contextual guidance into one connected journey. The next step would be to validate whether users understand the verification process, feel comfortable sharing information and find AI-assisted recommendations genuinely useful.</p>
+<div class="reflection">
+<h3>What I would measure</h3>
+<p>Onboarding completion, verification drop-off, time to complete key tasks, perceived trust, recommendation relevance and user confidence during discovery. These are proposed evaluation measures, not measured project results.</p>
+</div>
+</section>
+
+<footer>
+<span>© 2026 Nikita Raman</span>
+<a href="index.html">Back to all projects ↑</a>
+</footer>
+</div>
+</body>
+</html>
